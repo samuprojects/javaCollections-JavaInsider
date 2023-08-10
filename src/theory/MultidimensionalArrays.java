@@ -1,6 +1,6 @@
 package theory;
 @SuppressWarnings("ALL")
-public class multidimensionalArrays {
+public class MultidimensionalArrays {
 
     /*
     * array de 1 dimensão ( exemplo int[] = new int [5]; )

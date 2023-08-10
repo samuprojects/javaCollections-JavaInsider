@@ -1,7 +1,7 @@
 package theory;
 
 @SuppressWarnings("ALL")
-public class aboutArrays {
+public class AboutArrays {
 
     /*
     * Um Array é uma coleção de dados de um tipo específico (ou seja todos os elementos são sempre do mesmo tipo)
