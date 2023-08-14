@@ -31,8 +31,7 @@ public class ExRemoveEmployees {
 
         var iter = activeEmployees.iterator();
         while (iter.hasNext()){
-            Employee e = iter.next();
-            if (e.getStatus() == INACTIVE){
+            if (iter.next().getStatus() == INACTIVE){ // melhoria redução de código
                 iter.remove();
             }
         }
