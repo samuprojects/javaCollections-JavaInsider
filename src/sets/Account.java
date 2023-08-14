@@ -29,6 +29,11 @@ public class Account {
         return Double.compare(balance, account.balance) == 0 && Objects.equals(number, account.number);
     }
 
+    // o hashCode é usado junto com o equals, o resultado do equals vai gerar um número de hash
+    // a ideia é gerar números diferentes para objetos que são diferentes (eventualmente pode ser que objetos
+    // diferentes gerem o mesmo número e não tem problema)
+    // o que não pode ocorrer é objetos iguais gerando hashCode diferentes porque vai gerar problemas
+    // é como se fosse um identificar inteiro de um objeto (pois retorna um int)
     @Override
     public int hashCode() {
         return Objects.hash(number, balance);
